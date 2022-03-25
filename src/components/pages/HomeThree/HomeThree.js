@@ -5,7 +5,7 @@ import HeroSliderHomeThree from "../../Element/Slider/HeroSliderHomeThree";
 const HomeThree = () => {
     return (
         <>
-            <Layout header="style_3"  pageTitle="Home 03 - Roxce">
+            <Layout header="style_3"  pageTitle="Home 03 - Roxce" footer="style_3">
 
                 {/* sidebar area start */}
                 <HeroSliderHomeThree/>

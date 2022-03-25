@@ -13,6 +13,7 @@ import 'swiper/css/effect-fade';
 import {Link} from "react-router-dom";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import {images} from "../../../utilities/Images";
 // import 'swiper/css/scrollbar';
 // import * as url from "url";
 
@@ -36,7 +37,7 @@ const HeroSliderHome = () => {
                     <SwiperSlide>
                         <div
                             className="single-slider  slider__height slider__overlay d-flex align-items-center"
-                            style={{backgroundImage: "url(assets/img/slider/slider-1.jpg)"}}>
+                            style={{backgroundImage: `url(${images.slider1})`}}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-xxl-12">
@@ -60,7 +61,7 @@ const HeroSliderHome = () => {
                     <SwiperSlide>
                         <div
                             className="single-slider slider__height slider__overlay d-flex align-items-center"
-                            style={{backgroundImage: "url(assets/img/slider/slider-2.jpg)"}}>
+                            style={{backgroundImage: `url(${images.slider2})`}}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-xxl-12">

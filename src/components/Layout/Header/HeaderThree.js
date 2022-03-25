@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import NavMenu from "../../Element/NavMenu/NavMenu";
+import {images} from "../../../utilities/Images";
 
 const HeaderThree = () => {
     return (
@@ -13,7 +14,7 @@ const HeaderThree = () => {
                                 <div className="col-xxl-2 col-xl-3 col-lg-3 col-6">
                                     <div className="logo">
                                         <Link to="/">
-                                            <img src="assets/img/logo/logo.png" alt="logo"/>
+                                            <img src={images.logo} alt="logo"/>
                                         </Link>
                                     </div>
                                 </div>

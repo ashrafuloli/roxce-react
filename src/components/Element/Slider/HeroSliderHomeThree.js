@@ -14,6 +14,7 @@ import {Link} from "react-router-dom";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import PopupVideoSlider from "../PopupVideo/PopupVideoSlider";
+import {images} from "../../../utilities/Images";
 // import 'swiper/css/scrollbar';
 // import * as url from "url";
 
@@ -37,7 +38,7 @@ const HeroSliderHomeThree = () => {
                     <SwiperSlide>
                         <div
                             className="single-slider slider__height slider__height-2 slider__overlay d-flex align-items-center"
-                            style={{backgroundImage: "url(assets/img/slider/03/slider-1.jpg)"}}>
+                            style={{backgroundImage: `url(${images.slider3})`}}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-xxl-12">
@@ -68,7 +69,7 @@ const HeroSliderHomeThree = () => {
                     <SwiperSlide>
                         <div
                             className="single-slider slider__height slider__height-2 slider__overlay d-flex align-items-center"
-                            style={{backgroundImage: "url(assets/img/slider/03/slider-2.jpg)"}}>
+                            style={{backgroundImage: `url(${images.slider4})`}}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-xxl-12">
@@ -99,7 +100,7 @@ const HeroSliderHomeThree = () => {
                     <SwiperSlide>
                         <div
                             className="single-slider slider__height slider__height-2 slider__overlay d-flex align-items-center"
-                            style={{backgroundImage: "url(assets/img/slider/03/slider-3.jpg)"}}>
+                            style={{backgroundImage: `url(${images.slider5})`}}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-xxl-12">
