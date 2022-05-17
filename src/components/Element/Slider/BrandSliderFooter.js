@@ -2,7 +2,6 @@ import React from 'react';
 import {A11y, Navigation, Scrollbar} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {images} from "../../../utilities/Images";
-import {Link} from "react-router-dom";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 

@@ -66,6 +66,32 @@ import portfolio3 from "../../assets/img/portfolio/portfolio-3.jpg";
 import portfolio4 from "../../assets/img/portfolio/portfolio-4.jpg";
 import portfolio5 from "../../assets/img/portfolio/portfolio-5.jpg";
 
+// why images
+import why1 from "../../assets/img/why/why-1.jpg";
+import whyIcon1 from "../../assets/img/why/icon/why-icon-1.png";
+import whyIcon2 from "../../assets/img/why/icon/why-icon-2.png";
+import whyIcon3 from "../../assets/img/why/icon/why-icon-3.png";
+
+// testimonial images
+import testimonial1 from "../../assets/img/testimonial/testi-1.jpg";
+import testimonial2 from "../../assets/img/testimonial/testi-2.jpg";
+import testimonial3 from "../../assets/img/testimonial/testi-3.jpg";
+import testimonial4 from "../../assets/img/testimonial/testi-4.jpg";
+import testimonial5 from "../../assets/img/testimonial/testi-5.jpg";
+
+
+// blog images
+import blog1 from "../../assets/img/blog/blog-1.jpg";
+import blog2 from "../../assets/img/blog/blog-2.jpg";
+import blog3 from "../../assets/img/blog/blog-3.jpg";
+
+// video images
+import video1 from "../../assets/img/video/video-1.jpg";
+
+// contact
+import map from "../../assets/img/contact/map.png";
+import contact1 from "../../assets/img/contact/contact-1.jpg";
+import contact2 from "../../assets/img/contact/contact-2.jpg";
 
 export default {
     logo, logoWhite,
@@ -88,4 +114,14 @@ export default {
     skillShape1,
 
     portfolio1, portfolio2, portfolio3, portfolio4, portfolio5,
+
+    why1, whyIcon1, whyIcon2, whyIcon3,
+
+    testimonial1, testimonial2, testimonial3, testimonial4, testimonial5,
+
+    blog1, blog2, blog3,
+
+    video1,
+
+    map, contact1, contact2,
 }

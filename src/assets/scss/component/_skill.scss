@@ -42,25 +42,31 @@
             @media #{$xs}{
                 margin-bottom: 25px;
             }
-            & .knob{
+            & .CircularProgressbar-text{
                 font-size: 26px !important;
-                color: $black !important;
+                fill: $black !important;
             }
             & .progress-circular {
                 position: relative;
+
+                @media #{$xs}{
+                    display: inline-block;
+                }
+            }
+            & .CircularProgressbar{
+                width: 140px;
+                height: 140px;
             }
             & .progress-circular::after {
                 position: absolute;
                 content: '';
-                left: 15px;
-                top: 15px;
-                width: 79%;
-                height: 73%;
+                left: 50%;
+                top: 50%;
+                width: 78%;
+                height: 78%;
                 border: 7px solid #f8f4ef;
                 border-radius: 50%;
-                @media #{$xs}{
-                    width: 46%;
-                }
+                transform: translate(-50%,-50%);
             }
         }
         &-content{

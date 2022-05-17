@@ -1,5 +1,6 @@
 import React from 'react';
 import {images} from "../../../utilities/Images";
+import {buildStyles, CircularProgressbar} from "react-circular-progressbar";
 
 const SkillHomeOneElement = () => {
     return (
@@ -32,10 +33,22 @@ const SkillHomeOneElement = () => {
                                 <div className="skill__progress-item d-sm-flex align-items-center mb-30">
                                     <div className="skill__progress-circle mr-30">
                                         <div className="progress-circular">
-                                            <input type="text" className="knob" value="0" data-rel="85"
-                                                   data-linecap="round" data-width="140" data-height="140"
-                                                   data-bgcolor="#fff" data-fgcolor="#fc8459" data-thickness=".15"
-                                                   data-readonly="true" disabled/>
+                                            <CircularProgressbar
+                                                value={85}
+                                                text={`${85}%`}
+                                                styles={
+                                                    buildStyles({
+                                                        rotation: 0,
+                                                        textSize: '16px',
+                                                        pathTransitionDuration: 0.5,
+                                                        pathTransition: 'none',
+                                                        pathColor: `#fc8459`,
+                                                        textColor: '#000',
+                                                        trailColor: '#fff',
+                                                        backgroundColor: '#fff',
+                                                    })
+                                                }
+                                            />
                                         </div>
                                     </div>
                                     <div className="skill__progress-content">
@@ -49,10 +62,22 @@ const SkillHomeOneElement = () => {
                                 <div className="skill__progress-item d-sm-flex align-items-center mb-30">
                                     <div className="skill__progress-circle mr-30">
                                         <div className="progress-circular">
-                                            <input type="text" className="knob" value="0" data-rel="67"
-                                                   data-linecap="round" data-width="140" data-height="140"
-                                                   data-bgcolor="#fff" data-fgcolor="#24c373" data-thickness=".15"
-                                                   data-readonly="true" disabled/>
+                                            <CircularProgressbar
+                                                value={67}
+                                                text={`${67}%`}
+                                                styles={
+                                                    buildStyles({
+                                                        rotation: 0,
+                                                        textSize: '16px',
+                                                        pathTransitionDuration: 0.5,
+                                                        pathTransition: 'none',
+                                                        pathColor: `#24c373`,
+                                                        textColor: '#000',
+                                                        trailColor: '#fff',
+                                                        backgroundColor: '#fff',
+                                                    })
+                                                }
+                                            />
                                         </div>
                                     </div>
                                     <div className="skill__progress-content">
@@ -66,10 +91,22 @@ const SkillHomeOneElement = () => {
                                 <div className="skill__progress-item d-sm-flex align-items-center mb-30">
                                     <div className="skill__progress-circle mr-30">
                                         <div className="progress-circular">
-                                            <input type="text" className="knob" value="0" data-rel="83"
-                                                   data-linecap="round" data-width="140" data-height="140"
-                                                   data-bgcolor="#fff" data-fgcolor="#8f3cff" data-thickness=".15"
-                                                   data-readonly="true" disabled/>
+                                            <CircularProgressbar
+                                                value={83}
+                                                text={`${83}%`}
+                                                styles={
+                                                    buildStyles({
+                                                        rotation: 0,
+                                                        textSize: '16px',
+                                                        pathTransitionDuration: 0.5,
+                                                        pathTransition: 'none',
+                                                        pathColor: `#8f3cff`,
+                                                        textColor: '#000',
+                                                        trailColor: '#fff',
+                                                        backgroundColor: '#fff',
+                                                    })
+                                                }
+                                            />
                                         </div>
                                     </div>
                                     <div className="skill__progress-content">

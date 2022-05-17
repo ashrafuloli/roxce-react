@@ -6,6 +6,7 @@ import './assets/css/default.css';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-circular-progressbar/dist/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
