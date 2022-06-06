@@ -14,7 +14,7 @@ const BrandSliderFooter = () => {
                 modules={[Navigation, Scrollbar, A11y]}
                 slidesPerView={5}
                 spaceBetween={30}
-                navigation
+                // navigation
                 pagination={{clickable: true}}
                 scrollbar={{draggable: false}}
                 // onSwiper={(swiper) => console.log(swiper)}
